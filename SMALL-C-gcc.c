@@ -1333,7 +1333,7 @@ int addmac()
         while(ch()== ' ') gch();
         while(ch()==9) gch();
         if(macptr>=macmax) error("macro table full");
-        while(putmac(ch()));
+        while(putmac(gch()));
         kill();
 }
 
@@ -1353,6 +1353,7 @@ int findmac(sname)
         while(k<macptr)
         {
                 if(astreq(sname,macq+k,namemax))
+                        while(macq[k++]);
                         return k;
                 while(macq[k++]);
                 while(macq[k++]);
