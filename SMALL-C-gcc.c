@@ -1188,6 +1188,7 @@ int inputline()
 {
         int k;
         FILE *unit;
+        lptr=0;
         while(1)
         {
                 if (input==0) openin();
