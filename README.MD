@@ -15,18 +15,20 @@ This is an exploratory and incomplete project!
 I just wanted to see if I could get this up and running.
 
 Milestones:
-[ ] port it to modern C, something that gcc/clang will accept
-[ ] Get it working & running as an 8080 small-c cross-compiler
-[ ] produce some working 8080 asm code that can be ingested by `naken_asm` or similar assembler
-[ ] run it on a JS 8080 emulator
-[ ] run it on a synthesized 8080 core with `iveriog` or `veriltor`
-[ ] run it on FPGA
+
+- [ ] port it to modern C, something that gcc/clang will accept
+- [ ] Get it working & running as an 8080 small-c cross-compiler
+- [ ] produce some working 8080 asm code that can be ingested by `naken_asm` or similar assembler
+- [ ] run it on a JS 8080 emulator
+- [ ] run it on a synthesized 8080 core with `iveriog` or `veriltor`
+- [ ] run it on FPGA
 
 Branches:
-[ ] can the small-c compiler be modified to be self-hosting?
-[ ] retarget the "backend" to TMS9900?
-[ ] produce code that can be ingested by TI Editor/Assembler?
-[ ] produce a working self-hosted small-c compiler program for TI-99/4a?
+
+- [ ] can the small-c compiler be modified to be self-hosting?
+- [ ] retarget the "backend" to TMS9900?
+- [ ] produce code that can be ingested by TI Editor/Assembler?
+- [ ] produce a working self-hosted small-c compiler program for TI-99/4a?
 
 ### Dreams
 
