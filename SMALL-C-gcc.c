@@ -1506,6 +1506,7 @@ int outdec(number)
 {
         int k,zs;
         char c;
+        number = (int16_t)number; /* force int16 cast to get correct wrap behavior */
         zs = 0;
         k=10000;
         if (number<0)
