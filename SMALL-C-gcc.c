@@ -658,7 +658,7 @@ int newfunc()
                 while(match(")")==0)     /* then count args */
                 {
                         /* any legal name bumps arg count */
-                        if(symname(n)) {getarg(cint); argstk=argstk+2;}
+                        if(symname(n)) argstk=argstk+2;
                         else {error("illegal argument name"); junk();}
                         blanks();
                         /* if not closing paren, should be comma */

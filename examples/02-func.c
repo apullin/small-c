@@ -1,9 +1,7 @@
-int addend;
-
-add(a)
-int a;
+add(a,b)
+int a,b;
 {
-        return a+addend;
+        return a+b;
 }
 
 main()
@@ -11,7 +9,6 @@ main()
         int x,y,z;
         x=10;
         y=32;
-        addend=y;
-        z=add(x);
+        z=add(x,y);
         return z;
 }
